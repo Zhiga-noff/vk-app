@@ -1,0 +1,35 @@
+.image {
+  max-height: 30% !important;
+}
+
+.containerButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+
+  @media screen and (max-width: 380px) {
+    flex-direction: column;
+  }
+
+}
+
+.buttonGroup {
+  margin: 10px 0;
+
+  button {
+    opacity: 0.7;
+  }
+}
+
+.link {
+  color: var(--vkui--color_text_contrast_themed) !important;
+}
+
+.linkActive {
+  & button {
+    background-color: #2688eb !important;
+    opacity: 1;
+    color: white !important;
+
+  }
+}
